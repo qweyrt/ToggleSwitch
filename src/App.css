@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.icon {
+  font-size: 30px;
+}
+.words {
+  font-size: 13px;
+}
+.header2{
+  color: #ef37c1;
+  font-size: 40px;
+}
+.body{
+  font-size: 10px;
+}
+.button{
+  background-color: #ef37c1;
+  border: none;
+  color: white;
+}
+.header{
+  color: #6b1d58;
+  font-size: 40px
+}
+.card {
+  border-radius: 15px;
+}
+.Privilege-included {
+  color: #5f5f5f
+}
+
+.Privilege-excluded {
+  color: #a9a9a9
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
